@@ -9,7 +9,7 @@ import "./header.styles.scss"
 import { auth } from "../../firebase/firebase.utils"
 import CartIcon from "../cort-icon/cort-icon.component"
 import CartDropDown from "../cart-dropdown/cart-dropdown.component"
-import { select, selectCurrentUser } from "../../redux/user/user.selectors"
+import { selectCurrentUser } from "../../redux/user/user.selectors"
 import { selectCartHidden } from "../../redux/cart/cart.selectors"
 
 const Header = ({ currentUser, hidden }) => (
